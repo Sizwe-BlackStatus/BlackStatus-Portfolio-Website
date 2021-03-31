@@ -1,0 +1,865 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.Navbar {
+  display: flex;
+}
+.Logo {
+  top: 0px;
+  left: 0px;
+  width: 260px;
+  height: 88px;
+  background: #000000 0% 0% no-repeat padding-box;
+  opacity: 1;
+  color: #ffffff;
+  text-align: center;
+  font: normal normal 600 20px/82px sans-serif;
+  letter-spacing: 7.11px;
+  text-transform: uppercase;
+}
+
+.Menu ul {
+  position: absolute;
+  top: 21px;
+  left: 359px;
+  width: 313px;
+  height: 20px;
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(4, 1fr);
+  text-decoration: none;
+  opacity: 1;
+}
+.Menu a {
+  text-decoration: none;
+  text-align: left;
+  font: normal normal medium 14px/82px sans-serif;
+  letter-spacing: 0px;
+  color: #585757;
+  text-transform: uppercase;
+  opacity: 1;
+  margin: 20px;
+  padding: 0.8rem;
+}
+.Menu a:hover {
+  color: #ffffff;
+  background: #000000;
+  height: 20px;
+}
+.Menu-img {
+  display: none;
+}
+.social {
+  position: absolute;
+  top: 12px;
+  right: -8px;
+  width: 100px;
+  height: 17px;
+  opacity: 1;
+  padding: 25px 50px;
+}
+.social a {
+  margin: 0 0.4rem;
+  transition: transform 250ms;
+  display: inline-block;
+  color: #000;
+}
+.social a:hover {
+  transform: translateY(-2px);
+}
+.grey-box {
+  position: absolute;
+  top: 149px;
+  left: 0px;
+  width: 34%;
+  height: 550px;
+  background-color: #f2f2f2;
+  mix-blend-mode: screen;
+}
+.white-box {
+  position: absolute;
+  top: 149px;
+  right: 0px;
+  width: 66%;
+  height: 550px;
+  background-color: white;
+  display: flex;
+}
+.greeting {
+  position: absolute;
+  top: 225px;
+  left: 263px;
+  width: 617px;
+  height: 171px;
+  font: normal normal bold 50px/70px sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+}
+.jobTitle {
+  position: absolute;
+  top: 385px;
+  left: 259px;
+  font: normal normal bold 50px/70px sans-serif;
+  letter-spacing: -0.77px;
+  text-transform: uppercase;
+  mix-blend-mode: difference;
+  text-shadow: rgb(24, 24, 24);
+}
+@supports (-webkit-text-stroke: 1px rgb(0, 0, 0)) {
+  .jobTitle {
+    -webkit-text-stroke: 1px #f2f2f2;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+  }
+}
+.scroll {
+  position: absolute;
+  top: 517px;
+  left: 263px;
+  width: 152px;
+  height: 48px;
+  border: 2px solid #000000;
+  opacity: 1;
+  text-align: center;
+  font: normal normal 700 20px/48px sans-serif;
+}
+.downArrow {
+  position: absolute;
+  top: 517px;
+  left: 417px;
+  width: 56px;
+  height: 52px;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  line-height: 55px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+}
+
+.about {
+  position: absolute;
+  top: 768px;
+  left: 0px;
+  width: 100%;
+  height: 1635px;
+  background: #000000 0% 0% no-repeat padding-box;
+}
+.aboutMe {
+  position: absolute;
+  top: 120px;
+  left: 263px;
+  width: 850px;
+  height: 23px;
+  text-align: left;
+  font: normal normal bold 18px/82px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.aboutMeDescription {
+  position: absolute;
+  top: 200px;
+  left: 263px;
+  width: 850px;
+  font: normal normal bold 21px/42px sans-serif;
+  text-align: justify;
+  letter-spacing: 0px;
+  color: #acacac;
+  opacity: 1;
+}
+.proSkills {
+  position: absolute;
+  top: 397px;
+  left: 263px;
+  text-align: left;
+  font: normal normal bold 39px/72px sans-serif;
+  letter-spacing: -0.77px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.skillsIcon ul {
+  position: absolute;
+  top: 550px;
+  left: 192px;
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(3, 1fr);
+}
+.skillsIcon li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  padding: 62px;
+  width: 146px;
+  height: 137px;
+}
+.resume {
+  position: absolute;
+  top: 1428px;
+  left: 537px;
+  width: 202px;
+  height: 48px;
+  border: 1px solid #ffffff;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  font: normal normal 500 14px/52px sans-serif;
+  letter-spacing: -0.17px;
+}
+.download-Btn {
+  position: absolute;
+  top: 1428px;
+  left: 741px;
+  width: 56px;
+  height: 50px;
+  background: #ffffff;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  line-height: 55px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  opacity: 1;
+}
+.my-portfolio {
+  position: absolute;
+  top: 2473px;
+  left: 263px;
+  height: 89px;
+  text-align: left;
+  font: normal normal bold 52px/82px sans-serif;
+  letter-spacing: -0.77px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.portfolio-section {
+  position: absolute;
+  top: 2648px;
+  left: 152px;
+  width: 1067px;
+  height: 352px;
+  background: #1a1a1a 0% 0% no-repeat padding-box;
+  box-shadow: 0px 26px 28px #0000000d;
+  opacity: 1;
+}
+.portfolio-coming {
+  position: absolute;
+  top: 152px;
+  left: 113px;
+  width: 149px;
+  height: 58px;
+  text-align: left;
+  font: normal normal 600 16px/30px sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.portfolio-image {
+  position: absolute;
+  left: 377px;
+  width: 690px;
+  height: 352px;
+  opacity: 1;
+}
+.contact-section {
+  position: absolute;
+  top: 2827px;
+  left: 0px;
+  width: 101%;
+  height: 808px;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+}
+.contact-me {
+  position: absolute;
+  top: 210px;
+  left: 263px;
+  width: 419px;
+  text-align: left;
+  font: normal normal bold 46px/72px sans-serif;
+  letter-spacing: -0.77px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.form-user {
+  position: absolute;
+  top: 322px;
+  left: 263px;
+  width: 216px;
+}
+input,
+textarea {
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #000000;
+  background: transparent;
+  border-bottom: 2px solid #000000;
+}
+input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #000000;
+}
+textarea:focus {
+  outline: none;
+}
+::placeholder {
+  color: #000000;
+  text-transform: uppercase;
+  font: normal normal 600 14px/82px sans-serif;
+  text-align: left;
+}
+.message::placeholder {
+  position: absolute;
+  top: -15px;
+}
+.submission {
+  position: absolute;
+  top: 381px;
+  left: 0px;
+  width: 145px;
+  height: 37px;
+  border: 2px solid #000000;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  font: normal normal 600 14px/44px sans-serif;
+  letter-spacing: -0.17px;
+}
+.submission-arrow {
+  position: absolute;
+  top: 381px;
+  left: 149px;
+  width: 56px;
+  height: 41px;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  line-height: 42px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  opacity: 1;
+}
+.back-top {
+  position: absolute;
+  top: 687px;
+  left: 1017px;
+  width: 26px;
+  height: 20px;
+  text-align: right;
+  font: normal normal 600 14px/82px sans-serif;
+  letter-spacing: -0.17px;
+  color: #000000;
+  opacity: 1;
+}
+.back-top-arrow {
+  position: absolute;
+  top: 707px;
+  left: 1053px;
+  width: 44px;
+  height: 45px;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  line-height: 47px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  opacity: 1;
+}
+.info-header {
+  position: absolute;
+  top: 319px;
+  left: 803px;
+  text-align: left;
+  font: normal normal bold 20px/42px sans-serif;
+  letter-spacing: 0px;
+  color: #353535;
+  margin: 1px;
+}
+.contact-info ul {
+  position: absolute;
+  top: 350px;
+  left: 772px;
+  font: normal normal normal 16px/24px sans-serif;
+  letter-spacing: 0px;
+  color: #656565;
+  list-style: none;
+}
+.contact-info ul li {
+  margin: -10px;
+}
+
+@media only screen and (max-width: 1052px) {
+  .Logo {
+    top: 0px;
+    left: 0px;
+    width: 1183px;
+    height: 77px;
+    background: #000000 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal 600 16px/82px sans-serif;
+    letter-spacing: 8.13px;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  .Menu-box {
+    top: 0px;
+    left: 303px;
+    width: 115px;
+    height: 76px;
+    background: #f2f2f2 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .Menu-img {
+    display: flex;
+    position: absolute;
+    top: 14px;
+    left: 94%;
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+  }
+  .Menu {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 100%;
+    height: 540px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .Menu ul {
+    grid-template-columns: 1fr;
+    top: 30px;
+    left: 28%;
+  }
+  .Menu a {
+    text-align: left;
+    font: normal normal bold 24px/82px sans-serif;
+    letter-spacing: 0px;
+    color: #acacac;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  .Menu a:hover {
+    color: #f2f2f2;
+    background: #000000;
+    height: 20px;
+  }
+  .social {
+    top: 444px;
+    left: 308px;
+    width: 118px;
+    height: 20px;
+  }
+  .social a {
+    color: #f2f2f2;
+    margin: 12px 0.4em;
+    font-size: 20px;
+  }
+  .grey-box {
+    position: absolute;
+    top: 600px;
+    left: 0px;
+    width: 43%;
+    height: 550px;
+    background-color: #f2f2f2;
+    mix-blend-mode: screen;
+  }
+  .white-box {
+    position: absolute;
+    top: 600px;
+    right: 0px;
+    width: 57%;
+    height: 550px;
+    background-color: white;
+    display: flex;
+  }
+  .scroll {
+    position: absolute;
+    top: 951px;
+    left: 231px;
+    width: 152px;
+    height: 48px;
+    border: 2px solid #000000;
+    opacity: 1;
+    text-align: center;
+    font: normal normal 700 20px/48px sans-serif;
+  }
+  .downArrow {
+    position: absolute;
+    top: 951px;
+    left: 387px;
+    width: 56px;
+    height: 52px;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    line-height: 55px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+  }
+  .jobTitle {
+    position: absolute;
+    top: 821px;
+    left: 231px;
+    font: normal normal bold 50px/70px sans-serif;
+    letter-spacing: -0.77px;
+    text-transform: uppercase;
+    mix-blend-mode: difference;
+    text-shadow: rgb(24, 24, 24);
+  }
+  .greeting {
+    top: 706px;
+    left: 237px;
+    width: 385px;
+    height: 152px;
+    text-align: left;
+    font: normal normal bold 40px/50px sans-serif;
+    letter-spacing: -0.48px;
+    color: #141313;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  .about {
+    top: 1060px;
+    height: 1554px;
+  }
+  .aboutMe {
+    top: 25px;
+    left: 24px;
+    width: -1px;
+    font: normal normal bold 16px/82px sans-serif;
+  }
+  .aboutMeDescription {
+    position: absolute;
+    top: 126px;
+    left: 23px;
+    width: auto;
+    font: normal normal bold 21px/42px sans-serif;
+  }
+  .proSkills {
+    top: 327px;
+    left: 24px;
+    width: 327px;
+    height: 104px;
+    font: normal normal bold 40px/48px sans-serif;
+  }
+  .skillsIcon {
+    position: absolute;
+    top: -65px;
+    left: -215px;
+    list-style: none;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .resume {
+    position: absolute;
+    top: 1428px;
+    left: 320px;
+    width: 202px;
+    height: 48px;
+    border: 1px solid #ffffff;
+    opacity: 1;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font: normal normal 500 14px/52px sans-serif;
+    letter-spacing: -0.17px;
+  }
+  .download-Btn {
+    position: absolute;
+    top: 1428px;
+    left: 524px;
+    width: 56px;
+    height: 50px;
+    background: #ffffff;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    line-height: 55px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    opacity: 1;
+  }
+  .my-portfolio {
+    top: 2644px;
+    left: 109px;
+  }
+  .portfolio-section {
+    top: 2817px;
+    left: 0px;
+  }
+  .contact-section {
+    top: 2986px;
+  }
+  .contact-me {
+    left: 109px;
+  }
+  .form-user {
+    left: 108px;
+  }
+  .info-header {
+    top: 322px;
+    left: 567px;
+  }
+  .contact-info ul {
+    left: 536px;
+  }
+  .back-top {
+    left: 566px;
+  }
+  .back-top-arrow {
+    left: 600px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .social {
+    left: 120px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Logo {
+    top: 0px;
+    left: 0px;
+    width: 800px;
+    height: 77px;
+    background: #000000 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal 600 16px/82px sans-serif;
+    letter-spacing: 8.13px;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  .Menu-box {
+    top: 0px;
+    left: 303px;
+    width: 99px;
+    height: 76px;
+    background: #f2f2f2 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .Menu-img {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 93%;
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+  }
+  .Menu {
+    position: absolute;
+    top: 57px;
+    left: 0px;
+    width: 100%;
+    height: 603px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .Menu ul {
+    grid-template-columns: 1fr;
+    top: 30px;
+    left: 21%;
+  }
+  .Menu a {
+    text-align: left;
+    font: normal normal bold 24px/82px sans-serif;
+    letter-spacing: 0px;
+    color: #acacac;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  .Menu a:hover {
+    color: #f2f2f2;
+    background: #000000;
+    height: 20px;
+  }
+  .skillsIcon ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .resume {
+    top: 1967px;
+    left: 27px;
+  }
+  .download-Btn {
+    top: 1967px;
+    left: 231px;
+  }
+  .about {
+    height: 2083px;
+  }
+  .my-portfolio {
+    top: 3170px;
+    left: 24px;
+  }
+  .portfolio-section {
+    top: 3337px;
+    left: 0px;
+    width: 100%;
+    height: 578px;
+    background: #1a1a1a 0% 0% no-repeat padding-box;
+    box-shadow: 0px 26px 28px #0000000d;
+    opacity: 1;
+  }
+  .portfolio-coming {
+    top: 90px;
+    left: 26px;
+    width: 288px;
+    height: 28px;
+    text-align: left;
+    font: normal normal 600 20px/30px sans-serif;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  .portfolio-image {
+    top: 224px;
+    left: 0px;
+    height: 354px;
+    width: 100%;
+  }
+  .contact-section {
+    top: 3765px;
+    height: 100px;
+  }
+  .contact-me {
+    left: 26px;
+  }
+  .form-user {
+    left: 26px;
+  }
+  input,
+  textarea {
+    font-size: 23px;
+  }
+  .submission {
+    top: 460px;
+  }
+  .submission-arrow {
+    top: 460px;
+  }
+  .info-header {
+    top: 875px;
+    left: 26px;
+  }
+  .contact-info ul {
+    top: 900px;
+    left: 0px;
+  }
+  .back-top {
+    top: 1085px;
+    right: 26px;
+  }
+  .back-top-arrow {
+    top: 1103px;
+    right: 40px;
+  }
+  .social {
+    left: 172px;
+  }
+
+  @media only screen and (max-width: 630px) {
+    .Logo {
+      height: 76px;
+    }
+    .Menu ul {
+      left: 8%;
+    }
+    .social {
+      top: 444px;
+      left: 56px;
+      width: 105px;
+      height: 20px;
+    }
+    .greeting {
+      position: absolute;
+      top: 687px;
+      left: 24px;
+      width: 389px;
+      font: normal normal bold 40px/48px sans-serif;
+    }
+    .jobTitle {
+      top: 800px;
+      left: 25px;
+      width: 326px;
+      font: normal normal bold 40px/48px sans-serif;
+    }
+    .grey-box {
+      width: 0%;
+    }
+    .white-box {
+      width: 100%;
+    }
+    .scroll {
+      left: 25px;
+      width: 358px;
+    }
+    .proSkills {
+      top: 420px;
+    }
+    .skillsIcon ul {
+      top: 627px;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .skillsIcon li {
+      width: 307px;
+      height: 176px;
+    }
+    img {
+      position: absolute;
+      height: 151px;
+      left: 170px;
+    }
+    .about {
+      height: 3613px;
+    }
+    .resume {
+      top: 3496px;
+      width: 373px;
+      left: 27px;
+    }
+    .download-Btn {
+      top: 3496px;
+      left: 402px;
+    }
+    .my-portfolio {
+      top: 4707px;
+    }
+    .portfolio-section {
+      top: 4888px;
+    }
+    .contact-section {
+      top: 5316px;
+      height: 1185px;
+    }
+    .back-top {
+      top: 1024px;
+      left: 369px;
+    }
+    .back-top-arrow {
+      top: 1043px;
+      left: 400px;
+    }
+  }
+}

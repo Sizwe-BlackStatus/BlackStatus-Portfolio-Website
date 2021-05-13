@@ -1,18 +1,26 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-scroll";
+import "./Home.css";
 
 function Home() {
   return (
-    <div className="Home">
+    <div className="home">
       <div className="grey-box"></div>
-      <div className="white-box"></div>
-      <div className="greeting">Hello my name is sizwe and i'm a</div>
-      <div className="jobTitle">junior web developer.</div>
-      <div className="scroll">Scroll Down</div>
-      <a href="#about" className="downArrow">
-        <FontAwesomeIcon icon={faArrowDown} />
-      </a>
+      <div className="white-box" id="home"></div>
+      <div className="intro">
+        <p className="greeting">
+          Hello my name is sizwe and i'm a <br></br>
+          <span className="jobTitle">junior front-end web developer.</span>
+        </p>
+      </div>
+      <div className="Scroll">
+        <div>Scroll Down</div>
+        <Link to="about" smooth={true} duration={500} exact="true" offset={-80}>
+          <div className="arrowBox">
+            <i className="fas fa-arrow-down" />
+          </div>
+        </Link>
+      </div>
     </div>
   );
 }

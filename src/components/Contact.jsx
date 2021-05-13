@@ -1,23 +1,15 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight, faArrowUp } from "@fortawesome/free-solid-svg-icons";
-import contactinfo from "../contactInfo";
-import Info from "./Info";
-
-function createInfo(information) {
-  return (
-    <Info
-      key={information.id}
-      tel={information.tel}
-      email={information.email}
-      location={information.location}
-    />
-  );
-}
+import { Link } from "react-scroll";
+import "./Contact.css";
+import Social from "./Social.js";
+import socialIcons from "./socialLinks";
 
 function Contact() {
+  function createSocialIcon(tab) {
+    return <Social key={tab.id} link={tab.link} icon={tab.icon} />;
+  }
   return (
-    <div className="contact-section">
+    <div className="contact-section " id="contacts">
       <h1 className="contact-me">contact me</h1>
       <form className="form-user">
         <input type="text" placeholder="First Name"></input>
@@ -32,18 +24,34 @@ function Contact() {
         ></textarea>
         <div className="submission">Submit</div>
         <button className="submission-arrow">
-          <FontAwesomeIcon icon={faArrowRight} />
+          <i className="fas fa-arrow-right" />
         </button>
       </form>
       <h1 className="info-header">Contact info</h1>
       <div className="contact-info">
-        <ul>{contactinfo.map(createInfo)}</ul>
+        <ul>
+          <li>
+            <p>Pretoria, South Africa</p>
+          </li>
+          <li>
+            <p>+27 81 511 6971 </p>
+          </li>
+          <li>
+            <p>sizwemasemola1@gmail.com</p>
+          </li>
+        </ul>
       </div>
 
-      <div className="back-top">Top</div>
-      <a href="/home" className="back-top-arrow">
-        <FontAwesomeIcon icon={faArrowUp} />
-      </a>
+      <div className="back-top">
+        <p>Top</p>
+        <Link to="home" smooth={true} duration={500} exact="true" offset={-80}>
+          <div className="back-top-arrow">
+            <i className="fa fa-arrow-up" />
+          </div>
+        </Link>
+      </div>
+
+      <ul className="contact_socials">{socialIcons.map(createSocialIcon)}</ul>
     </div>
   );
 }

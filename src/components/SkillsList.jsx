@@ -1,9 +1,10 @@
 import React from "react";
 function skillsList(props) {
   return (
-    <li>
+    <div className="skill">
       <img src={props.src} alt={props.alt}></img>
-    </li>
+    </div>
+    
   );
 }
 

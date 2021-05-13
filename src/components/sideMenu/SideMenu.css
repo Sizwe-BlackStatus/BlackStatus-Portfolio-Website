@@ -1,0 +1,15 @@
+.sideMenu_socials li {
+    position: relative;
+    top: -80px;
+    font-size: 20px;
+    left: 0;
+}
+
+.sideMenu_socials li a {
+    color: #fff;
+}
+
+.sideMenu_socials li:hover {
+    transition: all 0.4s ease-out;
+    transform: translateY(-4px);
+}

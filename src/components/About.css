@@ -1,0 +1,172 @@
+.about {
+  position: relative;
+  top: 768px;
+  width: 100%;
+  height: 1670px;
+  background: #000000 0% 0% no-repeat padding-box;
+}
+
+.about_me {
+  position: relative;
+  top: 83px;
+  left: 24%;
+  width: 23%;
+  height: 23px;
+  text-align: left;
+  font: normal normal bold 16px/82px sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.description {
+  position: relative;
+  top: 154px;
+  left: 24%;
+  width: 54%;
+  height: auto;
+  text-align: left;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: sans-serif;
+  letter-spacing: 0px;
+  color: #acacac;
+  opacity: 1;
+}
+
+.professional_skills {
+  position: relative;
+  top: 198px;
+  left: 24%;
+  width: 57%;
+  height: auto;
+  text-align: left;
+  font: normal normal bold 49px/72px sans-serif;
+  letter-spacing: -0.77px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.skillIconContainer {
+  max-width: 930px;
+  margin: 1rem auto;
+}
+
+.skillIcons {
+  position: relative;
+  top: 230px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.skill {
+  width: 300px;
+  padding: 5rem;
+  background: #fff;
+  margin: 5px auto;
+}
+
+@media screen and (max-width: 942px) {
+  .about {
+    height: 2323px;
+  }
+  .skillIconContainer {
+    max-width: 709px;
+  }
+  .skillIcons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    top: 1000px;
+    height: 2209px;
+  }
+  .about_me {
+    top: 19px;
+    left: 7%;
+    font: normal normal bold 14px/82px sans-serif;
+  }
+
+  .description {
+    top: 87px;
+    left: 7%;
+    width: 89%;
+  }
+
+  .professional_skills {
+    top: 160px;
+    left: 7%;
+    font: normal normal bold 40px/48px sans-serif;
+  }
+  .skillIcons {
+    top: 238px;
+  }
+}
+
+@media screen and (max-width: 602px) {
+  .about {
+    height: 3508px;
+  }
+  .skillIcons {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about {
+    height: 3643px;
+    top: 700px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .about_me {
+    font: normal normal bold 13px/82px sans-serif;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  .professional_skills {
+    font: normal normal bold 34px/48px sans-serif;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .about {
+    top: 699px;
+  }
+
+  .about_me {
+    font: normal normal bold 13px/82px sans-serif;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  .professional_skills {
+    font: normal normal bold 34px/48px sans-serif;
+  }
+}
+
+@media screen and (max-width: 312px) {
+  .about {
+    top: 750px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .about {
+    height: 3396px;
+  }
+  .about_me {
+    font: normal normal bold 12px/82px sans-serif;
+  }
+  .skill {
+    width: 280px;
+    padding: 4rem;
+  }
+}

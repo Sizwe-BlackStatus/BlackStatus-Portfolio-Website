@@ -1,32 +1,26 @@
 import React from "react";
-import SkillsList from "./SkillsList";
-import skillsIcons from "../skillsIcons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
-
-function skillsIcon(icon) {
+import "./About.css";
+import SkillsList from "../components/SkillsList";
+import skillIcons from "../components/skillsIcons";
+function createSkillGrid(icon) {
   return <SkillsList key={icon.id} src={icon.src} alt={icon.alt} />;
 }
-
 function About() {
   return (
     <div className="about" id="about">
-      <div className="aboutMe">ABOUT ME</div>
-      <div className="aboutMeDescription">
-        I am a 25 year old, South African born, male graduate from Tshwane
-        University of Technology. Currently doing my Web-Dev learnership at
-        Umuzi. I am charismatic and self-driven and I always say, what I lack in
-        experience I will make up for in work ethic. Carpe Diem.
+      <div className="about_me">About me</div>
+      <div className="description">
+        I am a 26 year old junior Front-End Web developer from Pretoria, South
+        Africa. I also have some Back-End experience using Node.js and
+        Express.js. I love a challenge and there is nothing more
+        satisfying than breaking down a complex problem into a simpler solution
+        through coding. What drives me is continious growth and what I lack in
+        experience, I make up for in worth ethic.<br></br>
       </div>
-      <h1 className="proSkills">Professional SKills</h1>
-      <div className="skillsIcon">
-        <ul>{skillsIcons.map(skillsIcon)}</ul>
+      <h1 className="professional_skills">Professional Skills</h1>
+      <div className="skillIconContainer">
+        <div className="skillIcons">{skillIcons.map(createSkillGrid)}</div>
       </div>
-
-      <div className="resume">Download Resume</div>
-      <a href="src\ResumeE.pdf" className="download-Btn">
-        <FontAwesomeIcon icon={faArrowDown} />
-      </a>
     </div>
   );
 }

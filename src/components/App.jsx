@@ -1,13 +1,12 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./Navbar";
 import "./App.css";
 import Home from "./Home";
 import About from "./About";
-import Portfolio from "../pages/Portfolio";
+import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import SideMenu from "./sideMenu/SideMenu";
-
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -26,12 +25,7 @@ function App() {
       <Home />
       <About />
       <Contact />
-      <main>
-        <Switch>
-          <Route path="/portfolio" component={Portfolio} exact />
-          <Route path="/portfolio_Mobile" component={Portfolio} exact />
-        </Switch>
-      </main>
+      <Portfolio />
     </Router>
   );
 }

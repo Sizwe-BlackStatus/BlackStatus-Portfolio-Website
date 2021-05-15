@@ -1,14 +1,14 @@
 .contact-section {
   position: relative;
-  top: 768px;
+  top: 1213px;
   left: 0px;
   width: 100%;
-  height: 808px;
+  height: 887px;
   background: #f5f5f5 0% 0% no-repeat padding-box;
 }
 .contact-me {
   position: relative;
-  top: 87px;
+  top: 322px;
   left: 24%;
   width: 60%;
   text-align: left;
@@ -19,7 +19,7 @@
 }
 .form-user {
   position: relative;
-  top: 118px;
+  top: 339px;
   left: 24%;
   width: 15%;
 }
@@ -84,7 +84,7 @@ textarea:focus {
 }
 .back-top {
   position: absolute;
-  top: 537px;
+  top: 770px;
   left: 70%;
   width: 32px;
   height: 20px;
@@ -95,6 +95,7 @@ textarea:focus {
   cursor: pointer;
   opacity: 1;
 }
+
 .back-top-arrow {
   position: absolute;
   top: 21px;
@@ -113,7 +114,7 @@ textarea:focus {
 }
 .info-header {
   position: absolute;
-  top: 184px;
+  top: 411px;
   left: 70%;
   text-align: left;
   font: normal normal bold 20px/42px sans-serif;
@@ -123,7 +124,7 @@ textarea:focus {
 }
 .contact-info ul {
   position: absolute;
-  top: 248px;
+  top: 462px;
   left: 70.8%;
   font: normal normal normal 16px/36px sans-serif;
   letter-spacing: 0px;
@@ -136,7 +137,7 @@ textarea:focus {
 
 .contact_socials {
   position: absolute;
-  top: 344px;
+  top: 550px;
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-gap: 15px;
@@ -163,7 +164,7 @@ textarea:focus {
 
 @media screen and (max-width: 768px) {
   .contact-section {
-    top: 1000px;
+    top: 1898px;
     height: 1139px;
   }
 
@@ -217,7 +218,7 @@ textarea:focus {
 
 @media screen and (max-width: 500px) {
   .contact-section {
-    top: 700px;
+    top: 1597px;
   }
 }
 

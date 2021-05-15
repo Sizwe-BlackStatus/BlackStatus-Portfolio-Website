@@ -1,0 +1,103 @@
+.portfolio {
+  position: relative;
+  top: -120px;
+  max-width: 1300px;
+  margin: 0rem auto;
+  height: 620px;
+}
+.my-portfolio {
+  position: relative;
+  top: 100px;
+  width: 69%;
+  left: 24%;
+  height: auto;
+  text-align: left;
+  font: normal normal bold 64px/82px sans-serif;
+  letter-spacing: -0.77px;
+  text-transform: uppercase;
+}
+.portfolio-section {
+  display: flex;
+  position: relative;
+  top: 185px;
+  height: 354px;
+  background: #000;
+}
+
+.github-container {
+  flex: 0.5;
+}
+.github-img {
+  position: relative;
+  left: 16%;
+  top: 98px;
+  width: 145px;
+  transition: transform 0.5s;
+}
+
+.github-img:hover {
+  transform: scale(1.2);
+}
+
+.portfolio-image {
+  flex: 0.5;
+  position: relative;
+}
+
+.mobile-portfolio-image {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .portfolio-image {
+    display: none;
+  }
+  .mobile-portfolio-image {
+    display: flex;
+    flex: 0.5;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .portfolio {
+    top: -140px;
+    height: 899px;
+  }
+
+  .my-portfolio {
+    left: 7%;
+    font: normal normal bold 40px/48px sans-serif;
+  }
+  
+  .portfolio-section {
+    flex-direction: column;
+    height: 666px;
+  }
+
+  .github-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 26%;
+  }
+
+  .mobile-portfolio-image {
+    top: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .portfolio {
+    top: -440px;
+  }
+  .github-container {
+    width: 41%;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .github-container {
+    width: 65%;
+  }
+}
+

@@ -117,8 +117,8 @@
 @media screen and (max-width: 500px) {
   .about {
     height: 3643px;
-    top: 700px;
-  }
+    top: 610px;
+}
 }
 
 @media screen and (max-width: 420px) {
@@ -137,8 +137,8 @@
 
 @media screen and (max-width: 360px) {
   .about {
-    top: 699px;
-  }
+    top: 620px;
+}
 
   .about_me {
     font: normal normal bold 13px/82px sans-serif;
@@ -153,9 +153,9 @@
   }
 }
 
-@media screen and (max-width: 312px) {
+@media screen and (max-width: 317px) {
   .about {
-    top: 750px;
+    top: 692px;
   }
 }
 @media screen and (max-width: 300px) {

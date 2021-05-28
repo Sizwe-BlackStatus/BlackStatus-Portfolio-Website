@@ -10,9 +10,9 @@ function About() {
     <div className="about" id="about">
       <div className="about_me">About me</div>
       <div className="description">
-        I am a 26 year old junior Front-End Web developer from Pretoria, South
-        Africa. I also have some Back-End experience using Node.js and
-        Express.js. I love a challenge and there is nothing more satisfying than
+        I am a 26 year old junior developer from Pretoria, South Africa. I am
+        proficient in HTML CSS JavaScript and have some experience in PostgreSQL
+        and React. I love a challenge and there is nothing more satisfying than
         breaking down a complex problem into a simpler solution through coding.
         What drives me is continious growth and what I lack in experience, I
         make up for in worth ethic.<br></br>

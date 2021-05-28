@@ -10,7 +10,7 @@ function Home() {
       <div className="intro">
         <p className="greeting">
           Hello my name is sizwe and i'm a <br></br>
-          <span className="jobTitle">junior front-end web developer.</span>
+          <span className="jobTitle">junior developer.</span>
         </p>
       </div>
       <div className="Scroll">

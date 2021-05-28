@@ -218,13 +218,25 @@ textarea:focus {
 
 @media screen and (max-width: 500px) {
   .contact-section {
-    top: 1597px;
+    top: 1508px;
   }
 }
 
 @media screen and (max-width: 427px) {
   .contact-me {
     width: 80%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .contact-section {
+    top: 1556px;
+  }
+}
+
+@media screen and (max-width: 317px) {
+  .contact-section {
+    top: 1634px;
   }
 }
 

@@ -88,8 +88,8 @@
 
 @media screen and (max-width: 500px) {
   .portfolio {
-    top: -440px;
-  }
+    top: -530px;
+}
   .github-container {
     width: 41%;
   }
@@ -101,3 +101,8 @@
   }
 }
 
+@media screen and (max-width: 317px) {
+  .portfolio {
+    top: -449px;
+  }
+}

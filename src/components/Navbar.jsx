@@ -14,8 +14,7 @@ function createNavBar(tab) {
 }
 function Navbar({ toggle }) {
   return (
-    <div>
-      <nav className="navbar">
+      <nav>
         <div className="navbarContainer">
           <div className="nav_logo">
             <h1>Black Status</h1>
@@ -29,7 +28,6 @@ function Navbar({ toggle }) {
           </ul>
         </div>
       </nav>
-    </div>
   );
 }
 

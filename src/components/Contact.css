@@ -1,6 +1,6 @@
 .contact-section {
   position: relative;
-  top: 1213px;
+  top: 530px;
   left: 0px;
   width: 100%;
   height: 887px;
@@ -53,6 +53,9 @@ textarea:focus {
   top: -15px;
 }
 .submission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   top: 381px;
   left: 0px;
@@ -60,7 +63,6 @@ textarea:focus {
   height: 37px;
   border: 2px solid #000000;
   opacity: 1;
-  text-align: center;
   text-decoration: none;
   color: #000000;
   font: normal normal 600 14px/44px sans-serif;
@@ -164,7 +166,7 @@ textarea:focus {
 
 @media screen and (max-width: 768px) {
   .contact-section {
-    top: 1898px;
+    top: 1267px;
     height: 1139px;
   }
 
@@ -202,7 +204,7 @@ textarea:focus {
 
   .contact-info ul {
     top: 898px;
-    left: 4%;
+    left: 6%;
   }
 
   .back-top {
@@ -212,31 +214,41 @@ textarea:focus {
 
   .contact_socials {
     top: 994px;
-    left: 3%;
+    left: 4%;
   }
 }
 
 @media screen and (max-width: 500px) {
   .contact-section {
-    top: 1508px;
+    top: 1476px;
   }
 }
 
 @media screen and (max-width: 427px) {
   .contact-me {
-    width: 80%;
+    width: 97%;
   }
 }
 
 @media screen and (max-width: 360px) {
   .contact-section {
-    top: 1556px;
+    top: 1565px;
   }
 }
 
 @media screen and (max-width: 317px) {
   .contact-section {
     top: 1634px;
+  }
+  .info-header {
+    top: 875px;
+  }
+  .contact-info ul {
+    top: 930px;
+  }
+
+  .contact_socials {
+    top: 1015px;
   }
 }
 

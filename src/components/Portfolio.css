@@ -1,6 +1,6 @@
 .portfolio {
   position: relative;
-  top: -120px;
+  top: -785px;
   max-width: 1300px;
   margin: 0rem auto;
   height: 620px;
@@ -24,23 +24,29 @@
   background: #000;
 }
 
-.github-container {
-  flex: 0.5;
+.porfolio-container {
+  flex: 0.3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
-.github-img {
+.portfolio-text {
+  font-size: 20px;
   position: relative;
-  left: 16%;
-  top: 98px;
   width: 145px;
   transition: transform 0.5s;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
-.github-img:hover {
+.portfolio-text:hover {
   transform: scale(1.2);
 }
 
 .portfolio-image {
-  flex: 0.5;
+  flex: 0.7;
   position: relative;
 }
 
@@ -60,7 +66,7 @@
 
 @media screen and (max-width: 768px){
   .portfolio {
-    top: -140px;
+    top: -770px;
     height: 899px;
   }
 
@@ -88,10 +94,16 @@
 
 @media screen and (max-width: 500px) {
   .portfolio {
-    top: -530px;
+    top: -610px;
 }
   .github-container {
     width: 41%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .portfolio {
+    top: -520px;
   }
 }
 

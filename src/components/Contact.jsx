@@ -27,8 +27,8 @@ function Contact() {
           <i className="fas fa-arrow-right" />
         </button>
       </form>
-      <h1 className="info-header">Contact info</h1>
       <div className="contact-info">
+        <h1 className="info-header">Contact info</h1>
         <ul>
           <li>
             <p>Pretoria, South Africa</p>

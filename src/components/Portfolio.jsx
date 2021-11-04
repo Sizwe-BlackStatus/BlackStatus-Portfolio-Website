@@ -1,5 +1,4 @@
 import React from "react";
-import githubImage from "../image/rsz_1github.jpg";
 import portfolioImg from "../image/image-portfolio-img.png";
 import mobilePortfolioImg from "../image/image-mobile-portfolio-img.png";
 import "./Portfolio.css";
@@ -10,10 +9,12 @@ function Portfolio() {
       <h1 className="my-portfolio">My Portfolio</h1>
       <div className="portfolio-section">
         <a
-          href="https://github.com/Sizwe-BlackStatus"
-          className="github-container"
+          href="https://portfoliowork.netlify.app/"
+          className="porfolio-container"
         >
-          <img className="github-img" src={githubImage} alt="github"></img>
+          <p className="portfolio-text">
+            portfolio
+          </p>
         </a>
         <img src={portfolioImg} className="portfolio-image" alt=""></img>
         <img
